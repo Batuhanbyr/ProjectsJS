@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Poppins:ital,wght@0,300;0,600;0,700;0,800;0,900;1,200;1,600;1,700;1,900&family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #002339;
+    color: #fff;
+}
+
+.container {
+    margin: 4rem;
+    max-width: 43.75rem; /* 700px in rem */
+    width: 90%;
+}
+
+.display {
+    width: 100%;
+    margin-top: 3.125rem; /* 50px in rem */
+    margin-bottom: 1.875rem; /* 30px in rem */
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.625rem 1.25rem; /* 26px 20px in rem */
+    border-radius: 0.3125rem; /* 5px in rem */
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 2.8125rem; /* 45px in rem */
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 0.25rem solid #019f55;
+}
+
+.display img {
+    width: 1.875rem; /* 30px in rem */
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem; /* 24px in rem */
+}
+
+.container button img {
+    width: 1.75rem; /* 28px in rem */
+    margin-right: 0.625rem; /* 10px in rem */
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 1.375rem; /* 22px in rem */
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.625rem; /* 16px 26px in rem */
+    border-radius: 0.3125rem; /* 5px in rem */
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .container {
+        margin: 2rem;
+    }
+
+    .display {
+        margin-top: 2rem;
+        margin-bottom: 1.25rem; /* 20px in rem */
+        padding: 1rem 1rem; /* 16px 16px in rem */
+    }
+
+    .container h1 {
+        font-size: 2rem; /* 32px in rem */
+    }
+
+    .display img {
+        width: 1.5625rem; /* 25px in rem */
+    }
+
+    .display input {
+        font-size: 1.25rem; /* 20px in rem */
+    }
+
+    .container button img {
+        width: 1.375rem; /* 22px in rem */
+        margin-right: 0.625rem; /* 10px in rem */
+    }
+
+    .container button {
+        font-size: 1.125rem; /* 18px in rem */
+        padding: 0.875rem 1.375rem; /* 14px 22px in rem */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin: 1rem;
+    }
+
+    .display {
+        margin-top: 1.25rem; /* 20px in rem */
+        margin-bottom: 0.625rem; /* 10px in rem */
+        padding: 0.875rem 0.875rem; /* 14px 14px in rem */
+    }
+
+    .container h1 {
+        font-size: 1.875rem; /* 30px in rem */
+    }
+
+    .display img {
+        width: 1.3125rem; /* 21px in rem */
+    }
+
+    .display input {
+        font-size: 1.125rem; /* 18px in rem */
+    }
+
+    .container button img {
+        width: 1.25rem; /* 20px in rem */
+        margin-right: 0.625rem; /* 10px in rem */
+    }
+
+    .container button {
+        font-size: 1rem; /* 16px in rem */
+        padding: 0.625rem 1rem; /* 10px 16px in rem */
+    }
+}
